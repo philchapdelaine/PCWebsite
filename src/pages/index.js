@@ -1,6 +1,6 @@
-import React from "react"
-import { Link } from "gatsby"
-import Layout from "../components/layout"
+import React from 'react'
+import { Link } from 'gatsby'
+import SiteLayout from '../components/sitelayout'
 import Home from './home'
 import About from './about'
 import Contact from './contact'
@@ -12,14 +12,14 @@ import Head from '../components/head'
 const IndexPage = () => {
 
   return (
-    <Layout>
+    <SiteLayout>
       <Head />
       <h1><br/></h1>
       <Home />
       <About />
       <Contact />
       <Blog />
-    </Layout>
+    </SiteLayout>
   )
 }
 

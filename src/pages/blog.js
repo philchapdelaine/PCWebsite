@@ -1,5 +1,5 @@
 import React from "react"
-import Layout from "../components/layout"
+import PageLayout from "../components/pagelayout"
 import * as blogStyles from './blog.module.scss'
 
 import { Link, graphql, useStaticQuery } from "gatsby"
@@ -22,7 +22,7 @@ const BlogPage = () => {
       }
     `)
   return (
-    <Layout>
+    <PageLayout>
       <h1>Blog</h1>
         <ol className={blogStyles.posts}>
           {data.allMarkdownRemark.edges.map(edge => {
@@ -36,7 +36,7 @@ const BlogPage = () => {
             )
           })}
         </ol>
-    </Layout>
+    </PageLayout>
   )
 }
 

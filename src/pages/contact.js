@@ -1,12 +1,12 @@
 import React from "react"
-import Layout from "../components/layout"
+import PageLayout from "../components/pagelayout"
 
 const ContactPage = () => {
   return (
-    <Layout>
+    <PageLayout>
       <h1>Contact Me</h1>
       <p>The best way to reach me is via <a href="https://www.twitter.com/" target="_blank">@Phil </a>on twitter</p>
-    </Layout>
+    </PageLayout>
   )
 }
 

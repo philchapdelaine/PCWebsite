@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import Layout from "../components/layout"
+import PageLayout from "../components/pagelayout"
 
 import Head from '../components/head'
 
@@ -8,12 +8,12 @@ import Head from '../components/head'
 const HomePage = () => {
 
   return (
-    <Layout>
+    <PageLayout>
       <h5 id="main"><br/><br/>Hi, my name is</h5>
       <h1>Philippe Chapdelaine.</h1>
       <h2>I build things.</h2>
       <p>Need a Developer? <Link to="/contact">Get in touch.</Link></p>
-    </Layout>
+    </PageLayout>
   )
 
   // return (

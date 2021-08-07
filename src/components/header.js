@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 import { navigate } from '@reach/router';
+import { AnchorLink } from 'gatsby-plugin-anchor-links'
 
 // import "./header.module.scss"
 import * as headerStyles from './header.module.scss'
@@ -31,7 +32,7 @@ const Header = () => {
       </Link>
         <ul className={headerStyles.navList}>
           <li>
-            <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/home">Home</Link>
+            <AnchorLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/home">Home</AnchorLink>
           </li>
           <li>
             <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/about">About</Link>
