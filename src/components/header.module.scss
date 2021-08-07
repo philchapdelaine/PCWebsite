@@ -4,11 +4,18 @@ $minWidth: 821px;
 $maxHeight: 600px;
 
 .header {
-  padding: 1rem 1rem 3.5rem; //top l/r bottom
+  padding: 1rem 1rem 3.4rem; //top l/r bottom
   margin: 0;
   width: 100%;
   z-index: 1;
-  background-color: rgba(255, 255, 255, .7);
+  background-color: rgba(200, 200, 200, .7);
+  left:0px;
+   right:0px;
+}
+
+.container-fluid {
+  width: 100%;
+  padding: 0rem;
 }
 
 // .title {
@@ -35,6 +42,7 @@ $maxHeight: 600px;
     align-self: center;
     margin: 0;
     padding-right: 0.5rem;
+    padding-top: 0.3rem;
     align-items: center;
 }
 
