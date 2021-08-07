@@ -5,9 +5,18 @@
     width: 100%;
     padding: 0rem;
 
+
     display: flex; //enable flexbox
     flex-direction: column; //want content and header above footer, not l or r
     min-height: 100vh; //viewport height, set container height to screen height
+}
+
+.background {
+    background-image: url(../images/bg.jpg);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-color: hsla(0,0%,100%,0.55);
+    background-blend-mode: overlay;
 }
 
 .content {
