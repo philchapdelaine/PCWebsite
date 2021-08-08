@@ -11,14 +11,10 @@
     min-height: 100vh; //viewport height, set container height to screen height
 }
 
-.background {
-    background-image: url(../images/bg.jpg);
-    background-repeat: repeat-y;
-    background-size: 100%;
-    background-color: hsla(0,0%,100%,0.55);
-    background-blend-mode: overlay;
-}
-
 .content {
   flex-grow: 1;
+}
+
+.bg {
+    background-color: #fafafa;
 }

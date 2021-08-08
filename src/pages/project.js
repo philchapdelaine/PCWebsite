@@ -4,7 +4,7 @@ import * as blogStyles from './blog.module.scss'
 
 import { Link, graphql, useStaticQuery } from "gatsby"
 
-const BlogPage = () => {
+const ProjectPage = () => {
   const data = useStaticQuery(graphql`
       query {
         allMarkdownRemark {
@@ -41,4 +41,4 @@ const BlogPage = () => {
   )
 }
 
-export default BlogPage
+export default ProjectPage

@@ -47,6 +47,9 @@ const Header = () => {
           <li>
             <AnchorLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/#blog">Blog</AnchorLink>
           </li>
+          <li>
+            <AnchorLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/#project">Projects</AnchorLink>
+          </li>
         </ul>
     </header>
   )
