@@ -16,7 +16,6 @@ const IndexPage = () => {
   return (
     <SiteLayout>
       <Head />
-      <h1><br/></h1>
       <h1 id="home"><br/><br/><br/></h1>
       <Home />
       <h1 id="about"><br/><br/><br/></h1>
