@@ -1,7 +1,5 @@
 import React from 'react'
-import { Link, graphql, useStaticQuery } from 'gatsby'
-import { navigate } from '@reach/router';
-import { AnchorLink } from 'gatsby-plugin-anchor-links'
+import { Link } from 'gatsby'
 
 // import "./header.module.scss"
 import * as headerStyles from './header.module.scss'
@@ -9,7 +7,9 @@ import * as headerStyles from './header.module.scss'
 import logo from '../images/@me.jpg'
 
 const Header = () => {
-  const data = useStaticQuery(graphql`
+
+  {/*
+    const data = useStaticQuery(graphql`
     query {
       site {
         siteMetadata {
@@ -18,12 +18,15 @@ const Header = () => {
       }
     }
   `)
+  */}
 
-  {/* <h1>
+  {/*
+    <h1>
     <Link className={headerStyles.title} to="/">
       {data.site.siteMetadata.title}
     </Link>
-  </h1> */}
+  </h1>
+  */}
 
   return (
     <header className={headerStyles.header}>
@@ -32,16 +35,16 @@ const Header = () => {
       </Link>
         <ul className={headerStyles.navList}>
           <li>
-            <AnchorLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/home">Home</AnchorLink>
+            <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/#home">Home</Link>
           </li>
           <li>
-            <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/about">About</Link>
+            <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/#about">About</Link>
           </li>
           <li>
-            <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/contact">Contact</Link>
+            <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/#contact">Contact</Link>
           </li>
           <li>
-            <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/blog">Blog</Link>
+            <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/#blog">Blog</Link>
           </li>
         </ul>
     </header>

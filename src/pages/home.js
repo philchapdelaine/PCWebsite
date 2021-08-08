@@ -2,9 +2,6 @@ import React from "react"
 import { Link } from "gatsby"
 import PageLayout from "../components/pagelayout"
 
-import Head from '../components/head'
-
-
 const HomePage = () => {
 
   return (
@@ -12,7 +9,7 @@ const HomePage = () => {
       <h5 id="main"><br/><br/>Hi, my name is</h5>
       <h1>Philippe Chapdelaine.</h1>
       <h2>I build things.</h2>
-      <p>Need a Developer? <Link to="/contact">Get in touch.</Link></p>
+      <p>Need a Developer? <Link to="/#contact">Get in touch.</Link></p>
     </PageLayout>
   )
 

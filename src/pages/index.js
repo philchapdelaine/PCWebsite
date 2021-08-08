@@ -1,13 +1,15 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import SiteLayout from '../components/sitelayout'
 import Home from './home'
 import About from './about'
 import Contact from './contact'
 import Blog from './blog'
-import Footer from '../components/footer'
-
 import Head from '../components/head'
+
+if (typeof window !== "undefined") {
+   // eslint-disable-next-line global-require
+  require("smooth-scroll")('a[href*="#"]')
+}
 
 const IndexPage = () => {
 
@@ -15,9 +17,13 @@ const IndexPage = () => {
     <SiteLayout>
       <Head />
       <h1><br/></h1>
+      <h1 id="home"><br/><br/><br/></h1>
       <Home />
+      <h1 id="about"><br/><br/><br/></h1>
       <About />
+      <h1 id="contact"><br/><br/><br/></h1>
       <Contact />
+      <h1 id="blog"><br/><br/><br/></h1>
       <Blog />
     </SiteLayout>
   )

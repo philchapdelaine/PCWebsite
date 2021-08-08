@@ -7,8 +7,9 @@ import * as headerStyles from './header.module.scss'
 import { StickyContainer, Sticky } from 'react-sticky';
 
 const SiteLayout = (props) => {
+
   return (
-    <div className={headerStyles.container}>
+    <div> //add styling here
     <StickyContainer>
       <Sticky>{({ style }) => <header className={headerStyles.header} style={style}><Header /></header>}</Sticky>
       {props.children}
