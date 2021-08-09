@@ -1,15 +1,18 @@
 import React from "react"
 import { Link } from "gatsby"
 import PageLayout from "../components/pagelayout"
+import * as layoutStyles from "../components/layout.module.scss"
 
 const HomePage = () => {
 
   return (
     <PageLayout>
-      <h5 id="main"><br/><br/>Hi, my name is</h5>
-      <h1>Philippe Chapdelaine.</h1>
-      <h2>I build things.</h2>
-      <p>Need a Developer? <Link to="/#contact">Get in touch.</Link></p>
+      <div>
+        <h5 className={layoutStyles.home} id="main"><br/><br/> HI, MY NAME IS</h5>
+        <h1 className={layoutStyles.homename}>PHILIPPE CHAPDELAINE.</h1>
+        <h2 className={layoutStyles.home}> I BUILD THINGS.</h2>
+        <p className={layoutStyles.home}><Link to="/#contact">Get in touch.</Link></p>
+      </div>
     </PageLayout>
   )
 

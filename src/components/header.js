@@ -41,16 +41,16 @@ const Header = () => {
           </li>
           */}
           <li>
-            <AnchorLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/#about">About</AnchorLink>
+            <AnchorLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/#about">ABOUT</AnchorLink>
           </li>
           <li>
-            <AnchorLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/#contact">Contact</AnchorLink>
+            <AnchorLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/#contact">CONTACT</AnchorLink>
           </li>
           <li>
-            <AnchorLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/#blog">Blog</AnchorLink>
+            <AnchorLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/#blog">BLOG</AnchorLink>
           </li>
           <li>
-            <AnchorLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/#project">Projects</AnchorLink>
+            <AnchorLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/#project">PROJECTS</AnchorLink>
           </li>
         </ul>
     </header>

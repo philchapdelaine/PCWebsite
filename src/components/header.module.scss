@@ -8,8 +8,9 @@ $maxHeight: 600px;
   margin: 0;
   width: 100%;
   z-index: 1;
-  background-color: rgba(200, 200, 200, .7);
+  background-color: rgba(10, 10, 10, .5);
   overflow: auto;
+  font-family: "Roboto-Black", sans-serif;
 }
 
 .container-fluid {
@@ -40,7 +41,7 @@ $maxHeight: 600px;
     float: right;
     align-self: center;
     margin: 0;
-    padding-right: 0.5rem;
+    padding-right: 0.8rem;
     padding-top: 0.3rem;
     align-items: center;
 }
@@ -49,9 +50,10 @@ $maxHeight: 600px;
     display: inline-block;
     color: #73737D;
     font-size: .9rem;
-    font-weight: 600;
+    font-weight: 700;
     text-decoration: none;
-    margin-left: 1rem;
+    margin-left: 1.5rem;
+    color: white;
 }
 
 .nav-item:hover {

@@ -16,5 +16,27 @@
 }
 
 .bg {
-    background-color: #fafafa;
+  background-color: #101214;
+  color: white;
+  // font-family: "Ailerons-Regular", sans-serif;
+}
+
+.home {
+  font-family: "Roboto-Black", sans-serif;
+}
+
+.homename {
+  font-family: "Roboto-Black", sans-serif;
+  font-size: 350%; // makes font bigger on 50%
+  margin-left: 0;
+}
+
+@font-face {
+  font-family: "Ailerons-Regular";
+  src: url("../fonts/Ailerons-Regular.otf");
+}
+
+@font-face {
+  font-family: "Roboto-Black";
+  src: url("../fonts/Roboto/Roboto-Black.ttf")
 }

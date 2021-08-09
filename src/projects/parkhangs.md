@@ -1,6 +1,6 @@
 ---
 type: "Web Development"
-title: "ParkHangs"
+title: "Park Hangs"
 date: "2019-04-04"
 github: "https://github.com/cmaija/ParkHangs"
 external: "https://parkhangs-webapp.herokuapp.com"
