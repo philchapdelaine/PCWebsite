@@ -14,6 +14,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@material-ui/core": "^4.12.3",
     "gatsby": "^3.10.2",
     "gatsby-plugin-anchor-links": "^1.2.1",
     "gatsby-plugin-react-helmet": "^4.11.0",
@@ -22,6 +23,7 @@
     "gatsby-remark-images": "^5.8.0",
     "gatsby-remark-relative-images": "^2.0.2",
     "gatsby-source-filesystem": "^3.11.0",
+    "gatsby-theme-material-ui": "^2.0.1",
     "gatsby-transformer-remark": "^4.8.0",
     "node-sass": "^6.0.1",
     "react": "^17.0.1",

@@ -35,9 +35,11 @@ const Header = () => {
         <img src={logo} alt='logo'/>
       </Link>
         <ul className={headerStyles.navList}>
-          <li>
+          {/*
+            <li>
             <AnchorLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/#home">Home</AnchorLink>
           </li>
+          */}
           <li>
             <AnchorLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/#about">About</AnchorLink>
           </li>
