@@ -11,7 +11,7 @@ const HomePage = () => {
         <h5 className={layoutStyles.homeintro} id="main"><br/>Hi, my name is</h5>
         <h1 className={layoutStyles.homename}>Philippe Chapdelaine.</h1>
         <h2 className={layoutStyles.home}>I build things.</h2>
-        <p><Link className={layoutStyles.homecontact} to="/#contact">Get in touch.</Link></p>
+        <p><a className={layoutStyles.homecontact} href="https://www.linkedin.com/in/philippe-chapdelaine-b63561185/" target="_blank">Get in touch.</a></p>
       </div>
     </PageLayout>
   )

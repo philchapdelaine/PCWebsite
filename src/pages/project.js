@@ -54,7 +54,7 @@ const ProjectPage = () => {
   return (
     <PageLayout>
       <h1>Projects</h1>
-        <Tabs value={selectedTab} onChange={handleChange}>
+        <Tabs TabIndicatorProps={{style: {background:'#5F9EA0'}}} value={selectedTab} onChange={handleChange}>
             {data.allMarkdownRemark.edges.map((edge, i) => {
               return (
                 <Tab label={edge.node.frontmatter.title} index={i}/>
@@ -67,7 +67,8 @@ const ProjectPage = () => {
             <TabPanel value={selectedTab} index={i}>
               <div>
                 <br />
-                {edge.node.frontmatter.type}
+                <div>{edge.node.frontmatter.type}</div>
+                <div>{edge.node.frontmatter.title}</div>
                 <div dangerouslySetInnerHTML={{ __html: edge.node.html }}></div>
               </div>
             </TabPanel>

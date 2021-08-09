@@ -7,7 +7,7 @@ import me from '../images/me-circle.png'
 const AboutPage = () => {
   return (
     <PageLayout>
-      <h1>ABOUT ME</h1>
+      <h1>About Me</h1>
       <div><br/><br/></div>
       <img className={layoutStyles.aboutimage} src={me} alt="me" />
       <p>Hi, I'm Phil, a fourth-year Cognitive Systems student at UBC. As a competitive person, I enjoy pushing myself in everything I do, and I love the challenges of solving programming problems.</p>

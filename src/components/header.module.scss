@@ -4,11 +4,11 @@ $minWidth: 821px;
 $maxHeight: 600px;
 
 .header {
-  padding: 1rem 1rem 0.8rem; //top l/r bottom
+  padding: 1rem 1rem 1rem 0.8rem; //top l/r bottom
   margin: 0;
   width: 100%;
   z-index: 1;
-  background-color: rgba(10, 10, 10, .5);
+  background-color: rgba(0, 0, 0, .2);
   overflow: auto;
   font-family: "Roboto-Black", sans-serif;
 }
