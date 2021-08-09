@@ -5,7 +5,6 @@ import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 
-
 import PageLayout from "../components/pagelayout"
 import * as blogStyles from './blog.module.scss'
 
@@ -63,7 +62,10 @@ const ProjectPage = () => {
         {data.allMarkdownRemark.edges.map((edge, i) => {
           return (
             <TabPanel value={selectedTab} index={i}>
+              <div>
+                <br />
               {edge.node.frontmatter.date}
+              </div>
             </TabPanel>
           )
         })}
