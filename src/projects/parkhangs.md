@@ -1,9 +1,14 @@
 ---
+type: "Web Development"
 title: "ParkHangs"
 date: "2019-04-04"
+github: "https://github.com/ginaahong/PCWebsite"
+external: "https://www.ginahong.dev"
+tech:
+    - React.js
+    - TypeScript
+    - MongoDB
 ---
-
-I just launched a new bootcamp!
 
 ![ParkHangs](../images/parkhangs.png)
 

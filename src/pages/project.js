@@ -17,11 +17,14 @@ const ProjectPage = () => {
           edges {
             node {
               frontmatter {
+                type
                 title
                 date
-              } fields {
-                slug
+                github
+                external
+                tech
               }
+              html
             }
           }
         }
@@ -64,7 +67,8 @@ const ProjectPage = () => {
             <TabPanel value={selectedTab} index={i}>
               <div>
                 <br />
-              {edge.node.frontmatter.date}
+                {edge.node.frontmatter.type}
+                <div dangerouslySetInnerHTML={{ __html: edge.node.html }}></div>
               </div>
             </TabPanel>
           )
