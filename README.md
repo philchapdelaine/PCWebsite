@@ -1,4 +1,5 @@
-My First Attempt at a personal website using Gatsby.js. It now fetches projects and jobs from Markdown files. :)
+My first attempt at a personal website using Gatsby.js. It now fetches projects and jobs from Markdown files. :)
+
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
