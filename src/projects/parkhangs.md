@@ -2,8 +2,8 @@
 type: "Web Development"
 title: "ParkHangs"
 date: "2019-04-04"
-github: "https://github.com/ginaahong/PCWebsite"
-external: "https://www.ginahong.dev"
+github: "https://github.com/cmaija/ParkHangs"
+external: "https://parkhangs-webapp.herokuapp.com"
 tech:
     - React.js
     - TypeScript
