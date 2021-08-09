@@ -56,8 +56,22 @@ $maxHeight: 600px;
     color: white;
 }
 
+.resume {
+  display: inline-block;
+  color: #73737D;
+  font-size: .9rem;
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 1.5rem;
+  color: #5F9EA0;
+}
+
+.resume:hover {
+  color: #5F9EA0;
+}
+
 .nav-item:hover {
-  color: #666666
+  color: #5F9EA0
 }
 
 .active-nav-item {

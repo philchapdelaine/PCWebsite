@@ -21,12 +21,12 @@ const IndexPage = () => {
       <Home />
       <h1 id="about"><br/><br/><br/></h1>
       <About />
+      <h1 id="project"><br/><br/><br/></h1>
+      <Project />
       <h1 id="contact"><br/><br/><br/></h1>
       <Contact />
       <h1 id="blog"><br/><br/><br/></h1>
       <Blog />
-      <h1 id="project"><br/><br/><br/></h1>
-      <Project />
     </SiteLayout>
   )
 }

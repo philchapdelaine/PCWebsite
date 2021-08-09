@@ -8,10 +8,10 @@ const HomePage = () => {
   return (
     <PageLayout>
       <div>
-        <h5 className={layoutStyles.home} id="main"><br/><br/> HI, MY NAME IS</h5>
-        <h1 className={layoutStyles.homename}>PHILIPPE CHAPDELAINE.</h1>
-        <h2 className={layoutStyles.home}> I BUILD THINGS.</h2>
-        <p className={layoutStyles.home}><Link to="/#contact">Get in touch.</Link></p>
+        <h5 className={layoutStyles.homeintro} id="main"><br/>Hi, my name is</h5>
+        <h1 className={layoutStyles.homename}>Philippe Chapdelaine.</h1>
+        <h2 className={layoutStyles.home}>I build things.</h2>
+        <p><Link className={layoutStyles.homecontact} to="/#contact">Get in touch.</Link></p>
       </div>
     </PageLayout>
   )

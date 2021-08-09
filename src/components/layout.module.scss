@@ -5,7 +5,6 @@
     width: 100%;
     padding: 0rem;
 
-
     display: flex; //enable flexbox
     flex-direction: column; //want content and header above footer, not l or r
     min-height: 100vh; //viewport height, set container height to screen height
@@ -23,12 +22,33 @@
 
 .home {
   font-family: "Roboto-Black", sans-serif;
+  text-decoration: none;
+}
+
+.homeintro {
+  font-family: "Roboto-Black", sans-serif;
+  color: grey;
 }
 
 .homename {
   font-family: "Roboto-Black", sans-serif;
   font-size: 350%; // makes font bigger on 50%
   margin-left: 0;
+}
+
+.homecontact {
+  font-family: "Roboto-Black", sans-serif;
+  text-decoration: none;
+  color: #5F9EA0;
+}
+
+.aboutimage {
+  width: 13rem;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+  padding-right: 2rem;
 }
 
 @font-face {
