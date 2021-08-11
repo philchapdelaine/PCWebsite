@@ -10,6 +10,6 @@ tech:
     - GraphQL
 ---
 
-![Me](../images/@me.jpg)
+![Me](../images/parkhangs.png)
 
 My first attempt at a personal website, made using Gatsby.js.

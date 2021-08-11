@@ -32,9 +32,9 @@ const Header = () => {
 
   return (
     <header className={headerStyles.header}>
-      <Link className={headerStyles.logo_box} to='/'>
+      <AnchorLink className={headerStyles.logo_box} to='/#home'>
         <img src={logo} alt='logo'/>
-      </Link>
+      </AnchorLink>
         <ul className={headerStyles.navList}>
           {/*
             <li>
@@ -42,19 +42,19 @@ const Header = () => {
           </li>
           */}
           <li>
-            <AnchorLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/#about">ABOUT</AnchorLink>
+            <AnchorLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/#about">about</AnchorLink>
           </li>
           <li>
-            <AnchorLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/#project">PROJECTS</AnchorLink>
+            <AnchorLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/#project">projects</AnchorLink>
           </li>
           <li>
-            <AnchorLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/#project">EXPERIENCE</AnchorLink>
+            <AnchorLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/#project">experience</AnchorLink>
           </li>
           <li>
-            <AnchorLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/#contact">CONTACT</AnchorLink>
+            <AnchorLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/#contact">contact</AnchorLink>
           </li>
           <li>
-            <a className={headerStyles.resume} activeClassName={headerStyles.activeNavItem} href={resume} target="_blank" rel="noopener noreferrer">RESUME</a>
+            <a className={headerStyles.resume} activeClassName={headerStyles.activeNavItem} href={resume} target="_blank" rel="noopener noreferrer">resume</a>
           </li>
         </ul>
     </header>

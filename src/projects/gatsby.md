@@ -12,7 +12,7 @@ tech:
 
 I just launched a new bootcamp!
 
-![Me](../images/@me.jpg)
+![Me](../images/parkhangs.png)
 
 ## Topics Covered
 

@@ -6,7 +6,10 @@ import * as headerStyles from './header.module.scss'
 import * as footerStyles from './footer.module.scss'
 import * as layoutStyles from  "./layout.module.scss"
 
-import { StickyContainer, Sticky } from 'react-sticky';
+import { StickyContainer, Sticky } from 'react-sticky'
+
+import { useSpring, animated } from 'react-spring'
+import { ParallaxProvider  } from 'react-scroll-parallax';
 
 const SiteLayout = (props) => {
 
@@ -14,7 +17,9 @@ const SiteLayout = (props) => {
     <div className={layoutStyles.bg}>
       <StickyContainer>
         <Sticky>{({ style }) => <header className={headerStyles.header} style={style}><Header /></header>}</Sticky>
-        {props.children}
+        <ParallaxProvider>
+          {props.children}
+        </ParallaxProvider>
         <Footer className={footerStyles.footer}/>
       </StickyContainer>
     </div>

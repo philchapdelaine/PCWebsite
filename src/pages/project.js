@@ -7,8 +7,10 @@ import Box from '@material-ui/core/Box';
 
 import PageLayout from "../components/pagelayout"
 import * as blogStyles from './blog.module.scss'
+import * as layoutStyles from '../components/layout.module.scss'
 
-import { Link, graphql, useStaticQuery } from "gatsby"
+import { Link, graphql, useStaticQuery } from 'gatsby'
+import { Parallax  } from 'react-scroll-parallax';
 
 const ProjectPage = () => {
   const data = useStaticQuery(graphql`
@@ -53,7 +55,8 @@ const ProjectPage = () => {
 
   return (
     <PageLayout>
-      <h1>Projects</h1>
+    <Parallax  y={[ 150, -140 ]} >
+      <h1 className={layoutStyles.headers}>Projects</h1>
         <Tabs TabIndicatorProps={{style: {background:'#5F9EA0'}}} value={selectedTab} onChange={handleChange}>
             {data.allMarkdownRemark.edges.map((edge, i) => {
               return (
@@ -75,6 +78,7 @@ const ProjectPage = () => {
           )
         })}
 
+    </Parallax>
     </PageLayout>
   )
 }

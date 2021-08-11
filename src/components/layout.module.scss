@@ -16,33 +16,51 @@
 
 .bg {
   background-color: #101214;
-  background-image: url("../images/bg_glitch.jpeg");
+  background-image: url("../images/bg_space_rework.png");
   background-color: #101214;
   color: white;
   // font-family: "Ailerons-Regular", sans-serif;
 }
 
+.satellite {
+    width: 8rem;
+    max-width: 150px;
+    padding: 2rem;
+    float: right;
+  }
+
 .home {
-  font-family: "Roboto-Black", sans-serif;
+  font-family: "video", serif;
+  font-weight: 400;
+  font-style: normal;
   text-decoration: none;
 }
 
 .homeintro {
-  font-family: "Roboto-Black", sans-serif;
-  color: grey;
+  font-family: "video", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #868395;
 }
 
 .homename {
-  font-family: "Roboto-Black", sans-serif;
+  font-family: "video", serif;
+  font-weight: 600;
+  font-style: normal;
   font-size: 350%; // makes font bigger on 50%
   margin-left: 0;
 }
 
 .homecontact {
-  font-family: "Roboto-Black", sans-serif;
+  font-family: "video", serif;
+  font-weight: 400;
+  font-style: normal;
   text-decoration: none;
   color: #5F9EA0;
 }
+
+// font-family: "Roboto-Black", sans-serif;
+// text-decoration: none;
 
 .aboutimage {
   width: 13rem;
@@ -51,6 +69,18 @@
   vertical-align: top;
   float: left;
   padding-right: 2rem;
+}
+
+.headers {
+  font-family: "video", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.bodyText {
+  font-family: "raleway", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 @font-face {

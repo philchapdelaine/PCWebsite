@@ -3,6 +3,19 @@ import { Link } from "gatsby"
 import PageLayout from "../components/pagelayout"
 import * as layoutStyles from "../components/layout.module.scss"
 
+import { Parallax  } from 'react-scroll-parallax';
+import Satellite from "../images/satellite.svg";
+import { useSpring, animated } from 'react-spring'
+
+const satelliteStyles = {
+    float: 'right'
+  }
+
+const Motion = () => {
+  const props = useSpring({ to: { opacity: 1 }, from: { opacity: 0 } })
+  return <animated.div style={props}>I will fade in</animated.div>
+}
+
 const HomePage = () => {
 
   return (
@@ -12,6 +25,9 @@ const HomePage = () => {
         <h1 className={layoutStyles.homename}>Philippe Chapdelaine.</h1>
         <h2 className={layoutStyles.home}>I build things.</h2>
         <p><a className={layoutStyles.homecontact} href="https://www.linkedin.com/in/philippe-chapdelaine-b63561185/" target="_blank">Get in touch.</a></p>
+        <Parallax  y={[ 70, -300 ]} styleInner={satelliteStyles}>
+          <Satellite />
+        </Parallax>
       </div>
     </PageLayout>
   )
