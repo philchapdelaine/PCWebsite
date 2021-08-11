@@ -20,8 +20,8 @@ const SiteLayout = (props) => {
         <ParallaxProvider>
           {props.children}
         </ParallaxProvider>
-        <Footer className={footerStyles.footer}/>
       </StickyContainer>
+      <Footer className={footerStyles.footer}/>
     </div>
   )
 }

@@ -71,6 +71,33 @@
   padding-right: 2rem;
 }
 
+.btn {
+  border: 1px solid #5F9EA0;
+  border-radius: 5px;
+  background-color: transparent;
+  height: 50px;
+  width: 200px;
+  color: #5F9EA0;
+  font-size: 1.5em;
+  font-family: "video", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  // box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+
+.btn:hover {
+  background-color: rgba(95, 150, 160, 0.2);
+}
+
+.btnLink {
+  text-decoration: none;
+  color: #5F9EA0;
+  font-family: "video", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .headers {
   font-family: "video", serif;
   font-weight: 700;
@@ -81,6 +108,11 @@
   font-family: "raleway", sans-serif;
   font-weight: 500;
   font-style: normal;
+}
+
+.fourOhFour {
+  text-align: center;
+  text-decoration: none;
 }
 
 @font-face {

@@ -6,6 +6,7 @@ import { AnchorLink } from 'gatsby-plugin-anchor-links';
 import * as headerStyles from './header.module.scss'
 
 import logo from '../images/favicon.ico'
+import icon from '../images/gatsby-icon.png'
 import resume from '../images/philippe_chapdelaine_coop_resume_2021.pdf'
 
 const Header = () => {
@@ -33,7 +34,7 @@ const Header = () => {
   return (
     <header className={headerStyles.header}>
       <AnchorLink className={headerStyles.logo_box} to='/#home'>
-        <img src={logo} alt='logo'/>
+        <img src={icon} alt='logo'/>
       </AnchorLink>
         <ul className={headerStyles.navList}>
           {/*

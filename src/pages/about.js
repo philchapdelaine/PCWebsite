@@ -15,7 +15,7 @@ const AboutPage = () => {
       </Parallax>
       <Parallax  y={[ 350, -140 ]} >
       <h1 className={layoutStyles.headers}>About Me</h1>
-      <div><br/><br/></div>
+      <div><br/></div>
       <img className={layoutStyles.aboutimage} src={me} alt="me" />
       <div className={layoutStyles.bodyText}>
         <p>Hi, I'm Phil, a fourth-year Cognitive Systems student at UBC. As a competitive person, I enjoy pushing myself in everything I do, and I love the challenges of solving programming problems.</p>
