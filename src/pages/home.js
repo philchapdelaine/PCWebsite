@@ -25,7 +25,7 @@ const HomePage = () => {
         <h1 className={layoutStyles.homename}>Philippe Chapdelaine.</h1>
         <h2 className={layoutStyles.home}>I build things.</h2>
         <p><a className={layoutStyles.homecontact} href="https://www.linkedin.com/in/philippe-chapdelaine-b63561185/" target="_blank">Get in touch.</a></p>
-        <Parallax  y={[ 70, -300 ]} styleInner={satelliteStyles}>
+        <Parallax  y={[ 150, -300 ]} styleInner={satelliteStyles}>
           <Satellite />
         </Parallax>
       </div>
