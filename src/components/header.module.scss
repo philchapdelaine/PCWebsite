@@ -35,7 +35,7 @@ $maxHeight: 600px;
     display: inline-block;
     vertical-align: top;
     float: left;
-    padding-left: 0.5rem;
+    padding-left: 1rem; //0.5rem;
 }
 
 .nav-list {
@@ -44,7 +44,7 @@ $maxHeight: 600px;
     float: right;
     align-self: center;
     margin: 0;
-    padding-right: 1.8rem;
+    padding-right: 1rem; //1.8rem;
     padding-top: 0.6rem;
     align-items: center;
 }
