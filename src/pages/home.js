@@ -24,8 +24,10 @@ const HomePage = () => {
         <h5 className={layoutStyles.homeintro} id="main"><br/>Hi, my name is</h5>
         <h1 className={layoutStyles.homename}>Philippe Chapdelaine.</h1>
         <h2 className={layoutStyles.home}>I build things.</h2>
-        <p><a className={layoutStyles.homecontact} href="https://www.linkedin.com/in/philippe-chapdelaine-b63561185/" target="_blank">Get in touch.</a></p>
-        <Parallax  y={[ 150, -300 ]} styleInner={satelliteStyles}>
+        <button className={layoutStyles.homebtn}>
+          <a className={layoutStyles.btnLink} href="https://www.linkedin.com/in/philippe-chapdelaine-b63561185/" target="_blank">Get in touch.</a>
+        </button>
+        <Parallax  y={[ 120, -300 ]} styleInner={satelliteStyles}>
           <Satellite />
         </Parallax>
       </div>

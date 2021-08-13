@@ -6,12 +6,13 @@ import { Link } from 'gatsby'
 const ContactPage = () => {
   return (
     <PageLayout>
-      <h1 className={layoutStyles.headers}>Contact Me</h1>
-      <p>I'm always happy to chat so my inbox is always open. Whether you have a question or just want to say hi, I'll get back to you!</p>
-      <button className={layoutStyles.btn}>
-        <Link className={layoutStyles.btnLink} to="/404">Say Hello</Link>
-      </button>
-      <p>The best way to reach me is via <a href="https://www.twitter.com/" target="_blank">@Phil </a>on twitter</p>
+      <h1 className={layoutStyles.contactHeader}>Contact Me</h1>
+      <div className={layoutStyles.contactBodyText}>
+        <p>I'm always happy to chat so my inbox is always open. Whether you have a question or just want to say hi, I'll get back to you!</p>
+        <button className={layoutStyles.btn}>
+          <a className={layoutStyles.btnLink} href="https://www.linkedin.com/in/philippe-chapdelaine-b63561185/" target="_blank">Say Hello</a>
+        </button>
+      </div>
     </PageLayout>
   )
 }

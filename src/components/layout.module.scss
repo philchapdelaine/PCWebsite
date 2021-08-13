@@ -71,6 +71,24 @@
   padding-right: 2rem;
 }
 
+
+// buttons
+
+.homebtn {
+  border: 1px solid #5F9EA0;
+  border-radius: 5px;
+  background-color: transparent;
+  height: 50px;
+  width: 160px;
+  color: #5F9EA0;
+  font-size: 0.9rem;
+  // box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+
+.homebtn:hover {
+  background-color: rgba(95, 150, 160, 0.2);
+}
+
 .btn {
   border: 1px solid #5F9EA0;
   border-radius: 5px;
@@ -109,6 +127,27 @@
   font-weight: 500;
   font-style: normal;
 }
+
+.contactHeader {
+  font-family: "video", serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contactBodyText {
+  font-family: "raleway", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  word-wrap: break-word;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 .fourOhFour {
   text-align: center;

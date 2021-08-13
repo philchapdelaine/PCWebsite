@@ -54,9 +54,9 @@ const Header = () => {
           <li>
             <AnchorLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/#contact">contact</AnchorLink>
           </li>
-          <li>
-            <a className={headerStyles.resume} activeClassName={headerStyles.activeNavItem} href={resume} target="_blank" rel="noopener noreferrer">resume</a>
-          </li>
+          <button className={headerStyles.resumebtn}>
+            <a className={headerStyles.btnLink} href={resume} target="_blank" rel="noopener noreferrer">resume</a>
+          </button>
         </ul>
     </header>
   )
