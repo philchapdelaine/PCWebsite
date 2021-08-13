@@ -4,16 +4,12 @@ import PageLayout from '../components/pagelayout'
 import * as layoutStyles from '../components/layout.module.scss'
 import me from '../images/me-circle.png'
 import { Parallax  } from 'react-scroll-parallax';
-import Moon from '../images/moon.svg'
 import Shuttle from '../images/shuttle.svg'
 
 const AboutPage = () => {
   return (
     <PageLayout>
-      <Parallax y={[ 200, -440 ]} >
-        <Moon />
-      </Parallax>
-      <Parallax  y={[ 350, -140 ]} >
+      <Parallax  y={[ 0, -140 ]} >
       <h1 className={layoutStyles.headers}>About Me</h1>
       <div><br/></div>
       <img className={layoutStyles.aboutimage} src={me} alt="me" />

@@ -89,14 +89,14 @@
   background-color: rgba(95, 150, 160, 0.2);
 }
 
-.btn {
+.contactBtn {
   border: 1px solid #5F9EA0;
   border-radius: 5px;
   background-color: transparent;
   height: 50px;
-  width: 200px;
+  width: 150px;
   color: #5F9EA0;
-  font-size: 1.5em;
+  font-size: 1.1rem;
   font-family: "video", serif;
   font-weight: 400;
   font-style: normal;
@@ -104,7 +104,7 @@
   // box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
 }
 
-.btn:hover {
+.contactBtn:hover {
   background-color: rgba(95, 150, 160, 0.2);
 }
 
@@ -115,6 +115,8 @@
   font-weight: 400;
   font-style: normal;
 }
+
+
 
 .headers {
   font-family: "video", serif;
