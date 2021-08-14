@@ -9,16 +9,16 @@ import Shuttle from '../images/shuttle.svg'
 const AboutPage = () => {
   return (
     <PageLayout>
-      <Parallax  y={[ 0, -140 ]} >
-      <h1 className={layoutStyles.headers}>About Me</h1>
-      <div><br/></div>
-      <img className={layoutStyles.aboutimage} src={me} alt="me" />
-      <div className={layoutStyles.bodyText}>
-        <p>Hi, I'm Phil, a fourth-year Cognitive Systems student at UBC. As a competitive person, I enjoy pushing myself in everything I do, and I love the challenges of solving programming problems.</p>
-        <p>In my free time, I enjoy working out, playing video games, and playing soccer.</p>
-        <p>I am currently searching for a developer position in 2021!</p>
+      <div data-sal="slide-up">
+          <h1 className={layoutStyles.headers}>About Me</h1>
+          <div><br/></div>
+          <img className={layoutStyles.aboutimage} src={me} alt="me" />
+          <div className={layoutStyles.bodyText}>
+            <p>Hi, I'm Phil, a fourth-year Cognitive Systems student at UBC. As a competitive person, I enjoy pushing myself in everything I do, and I love the challenges of solving programming problems.</p>
+            <p>In my free time, I enjoy working out, playing video games, and playing soccer.</p>
+            <p>I am currently searching for a developer position in 2021!</p>
+          </div>
       </div>
-      </Parallax>
     </PageLayout>
   )
 }

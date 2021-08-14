@@ -1,7 +1,7 @@
 ---
+order: "2"
 type: "Web Development"
 title: "Personal Website"
-date: "2019-04-04"
 github: "https://github.com/philchapdelaine/PCWebsite"
 external: "https://www.philchapdelaine.com"
 tech:
@@ -10,6 +10,7 @@ tech:
     - GraphQL
 ---
 
-![Me](../images/parkhangs.png)
+![Me](../images/website.png)
 
-My first attempt at a personal website, made using Gatsby.js.
+* My first attempt at a personal website, made using Gatsby.js.
+* I built the website by referencing [Andrew Mead's gatsby tutorial](https://mead.io)

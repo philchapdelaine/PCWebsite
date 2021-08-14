@@ -116,7 +116,18 @@
   font-style: normal;
 }
 
+.links {
+  display: inline-block;
+  float: left;
+  padding-right: 4rem;
+  padding-bottom: 4rem
+}
 
+.skills {
+  display: inline-block;
+  float: left;
+  margin-right: 0.5rem;
+}
 
 .headers {
   font-family: "video", serif;

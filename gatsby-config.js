@@ -16,6 +16,7 @@ module.exports = {
     `gatsby-plugin-anchor-links`,
     `gatsby-theme-material-ui`,
     `gatsby-plugin-react-svg`,
+    `gatsby-plugin-scroll-reveal`,
     {
       resolve: "gatsby-plugin-web-font-loader",
       options: {

@@ -8,6 +8,8 @@ import Box from '@material-ui/core/Box';
 import PageLayout from "../components/pagelayout"
 import * as blogStyles from './blog.module.scss'
 import * as layoutStyles from '../components/layout.module.scss'
+import Github from '../images/github.png'
+import External from '../images/external.png'
 
 import { Link, graphql, useStaticQuery } from 'gatsby'
 import { Parallax  } from 'react-scroll-parallax';
@@ -15,7 +17,11 @@ import { Parallax  } from 'react-scroll-parallax';
 const ProjectPage = () => {
   const data = useStaticQuery(graphql`
       query {
-        allMarkdownRemark {
+        allMarkdownRemark (
+          filter: { fileAbsolutePath: { regex: "/projects/"}, frontmatter : { order : { in : ["1", "2", "3", "4" ] }}}
+          sort: { fields: [ frontmatter___order ], order: ASC }
+        )
+        {
           edges {
             node {
               frontmatter {
@@ -71,15 +77,19 @@ const ProjectPage = () => {
             <TabPanel value={selectedTab} index={i}>
               <div>
                 <br />
-                <div>{edge.node.frontmatter.type}</div>
-                <div>{edge.node.frontmatter.title}</div>
+                <div>{frontm.type}</div>
+                <div><h1>{frontm.title}</h1></div>
                 <div dangerouslySetInnerHTML={{ __html: edge.node.html }}></div>
-                <div>{edge.node.frontmatter.github}</div>
-                <div>{edge.node.frontmatter.external}</div>
+                <div className={layoutStyles.link}>
+                  <a className={layoutStyles.link} href={frontm.github} target="_blank" rel="noopener noreferrer"><img src={Github} alt="github"/></a>
+                  <a className={layoutStyles.link} href={frontm.external} target="_blank" rel="noopener noreferrer"><img src={External} alt="external"/></a>
+                </div>
+                <div>
                   {frontm.tech.map((tech) => {
                     return (
-                      <h6>+{tech}</h6>);
+                      <h6 className={layoutStyles.skills}>+{tech}</h6>);
                       })}
+                </div>
               </div>
             </TabPanel>
           )
