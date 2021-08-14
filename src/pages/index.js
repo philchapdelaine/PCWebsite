@@ -23,7 +23,7 @@ const IndexPage = () => {
       <About />
       <h1 id="project"><br/><br/><br/></h1>
       <Project />
-      <h1 id="contact"><br/><br/><br/></h1>
+      <h1 id="contact"></h1>
       <Contact />
     </SiteLayout>
   )

@@ -66,6 +66,7 @@ const ProjectPage = () => {
           </Tabs>
 
         {data.allMarkdownRemark.edges.map((edge, i) => {
+          const frontm = edge.node.frontmatter
           return (
             <TabPanel value={selectedTab} index={i}>
               <div>
@@ -73,6 +74,12 @@ const ProjectPage = () => {
                 <div>{edge.node.frontmatter.type}</div>
                 <div>{edge.node.frontmatter.title}</div>
                 <div dangerouslySetInnerHTML={{ __html: edge.node.html }}></div>
+                <div>{edge.node.frontmatter.github}</div>
+                <div>{edge.node.frontmatter.external}</div>
+                  {frontm.tech.map((tech) => {
+                    return (
+                      <h6>+{tech}</h6>);
+                      })}
               </div>
             </TabPanel>
           )

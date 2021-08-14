@@ -3,7 +3,7 @@ type: "Web Development"
 title: "Personal Website"
 date: "2019-04-04"
 github: "https://github.com/philchapdelaine/PCWebsite"
-external: "https://parkhangs-webapp.herokuapp.com"
+external: "https://www.philchapdelaine.com"
 tech:
     - Gatsby.js
     - React
