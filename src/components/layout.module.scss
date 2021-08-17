@@ -71,7 +71,6 @@
   padding-right: 2rem;
 }
 
-
 // buttons
 
 .homebtn {
@@ -116,14 +115,27 @@
   font-style: normal;
 }
 
+//Projects
+
+.projects {
+  font-family: "raleway", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+}
+
 .links {
   display: inline-block;
   float: left;
   padding-right: 4rem;
-  padding-bottom: 4rem
+  padding-bottom: 4rem;
+  margin-left: 4rem;
 }
 
 .skills {
+  font-family: "raleway", sans-serif;
+  font-weight: 800;
+  font-style: normal;
   display: inline-block;
   float: left;
   margin-right: 0.5rem;

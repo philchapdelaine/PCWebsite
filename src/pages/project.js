@@ -73,16 +73,33 @@ const ProjectPage = () => {
 
         {data.allMarkdownRemark.edges.map((edge, i) => {
           const frontm = edge.node.frontmatter
+          const hasGit = (frontm.github.length !== 0)
+          const hasExt = (frontm.external.length !== 0)
+
+          let gitLink;
+          if (hasGit) {
+            gitLink = <a className={layoutStyles.link} href={frontm.github} target="_blank" rel="noopener noreferrer"><img src={Github} alt="github"/></a>
+          } else {
+            gitLink = ""
+          }
+
+          let externalLink;
+          if (hasExt) {
+            externalLink = <a className={layoutStyles.link} href={frontm.external} target="_blank" rel="noopener noreferrer"><img src={External} alt="external"/></a>
+          } else {
+            externalLink = ""
+          }
+          
           return (
             <TabPanel value={selectedTab} index={i}>
               <div>
                 <br />
                 <div>{frontm.type}</div>
                 <div><h1>{frontm.title}</h1></div>
-                <div dangerouslySetInnerHTML={{ __html: edge.node.html }}></div>
+                <div className={layoutStyles.projects} dangerouslySetInnerHTML={{ __html: edge.node.html }}></div>
                 <div className={layoutStyles.link}>
-                  <a className={layoutStyles.link} href={frontm.github} target="_blank" rel="noopener noreferrer"><img src={Github} alt="github"/></a>
-                  <a className={layoutStyles.link} href={frontm.external} target="_blank" rel="noopener noreferrer"><img src={External} alt="external"/></a>
+                  {gitLink}
+                  {externalLink}
                 </div>
                 <div>
                   {frontm.tech.map((tech) => {
