@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import PageLayout from '../components/pagelayout'
 import * as layoutStyles from '../components/layout.module.scss'
 import me from '../images/me-circle.png'

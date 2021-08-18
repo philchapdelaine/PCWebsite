@@ -8,7 +8,6 @@ import * as layoutStyles from  "./layout.module.scss"
 
 import { StickyContainer, Sticky } from 'react-sticky'
 
-import { useSpring, animated } from 'react-spring'
 import { ParallaxProvider  } from 'react-scroll-parallax';
 
 const SiteLayout = (props) => {

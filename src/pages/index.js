@@ -3,9 +3,9 @@ import SiteLayout from '../components/sitelayout'
 import Home from './home'
 import About from './about'
 import Contact from './contact'
-import Blog from './blog'
 import Head from '../components/head'
 import Project from './project'
+import Experience from './experience'
 
 if (typeof window !== "undefined") {
    // eslint-disable-next-line global-require
@@ -23,6 +23,8 @@ const IndexPage = () => {
       <About />
       <h1 id="project"><br/><br/><br/><br/><br/></h1>
       <Project />
+      <h1 id="experience"><br/></h1>
+      <Experience />
       <h1 id="contact"></h1>
       <Contact />
     </SiteLayout>

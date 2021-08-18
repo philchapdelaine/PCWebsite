@@ -1,11 +1,9 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import { AnchorLink } from 'gatsby-plugin-anchor-links';
 
 // import "./header.module.scss"
 import * as headerStyles from './header.module.scss'
 
-import logo from '../images/favicon.ico'
 import icon from '../images/gatsby-icon.png'
 import resume from '../images/philippe_chapdelaine_coop_resume_2021.pdf'
 
@@ -49,7 +47,7 @@ const Header = () => {
             <AnchorLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/#project">projects</AnchorLink>
           </li>
           <li>
-            <AnchorLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/#project">experience</AnchorLink>
+            <AnchorLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/#experience">experience</AnchorLink>
           </li>
           <li>
             <AnchorLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/#contact">contact</AnchorLink>

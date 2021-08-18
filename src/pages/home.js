@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import PageLayout from "../components/pagelayout"
 import * as layoutStyles from "../components/layout.module.scss"
 
@@ -37,7 +36,7 @@ const HomePage = () => {
         <animated.div style={third}>
           <h2 className={layoutStyles.home}>I build things.</h2>
           <button className={layoutStyles.homebtn}>
-            <a className={layoutStyles.btnLink} href="https://www.linkedin.com/in/philippe-chapdelaine-b63561185/" target="_blank">Get in touch.</a>
+            <a className={layoutStyles.btnLink} rel="noreferrer" href="https://www.linkedin.com/in/philippe-chapdelaine-b63561185/" target="_blank">Get in touch.</a>
           </button>
         </animated.div>
         <Parallax  y={[ 120, -300 ]} styleInner={satelliteStyles}>

@@ -1,17 +1,14 @@
 import React from 'react';
-import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
-import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 
 import PageLayout from "../components/pagelayout"
-import * as blogStyles from './blog.module.scss'
 import * as layoutStyles from '../components/layout.module.scss'
 import Github from '../images/github.png'
 import External from '../images/external.png'
 
-import { Link, graphql, useStaticQuery } from 'gatsby'
+import { graphql, useStaticQuery } from 'gatsby'
 import { Parallax  } from 'react-scroll-parallax';
 
 const ProjectPage = () => {
@@ -89,7 +86,7 @@ const ProjectPage = () => {
           } else {
             externalLink = ""
           }
-          
+
           return (
             <TabPanel value={selectedTab} index={i}>
               <div>

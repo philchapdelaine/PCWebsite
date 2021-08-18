@@ -1,7 +1,6 @@
 import React from 'react'
 import PageLayout from '../components/pagelayout'
 import * as layoutStyles from '../components/layout.module.scss'
-import { Link } from 'gatsby'
 import Moon from '../images/moon.svg'
 import { Parallax  } from 'react-scroll-parallax';
 
