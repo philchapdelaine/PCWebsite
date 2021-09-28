@@ -1,6 +1,5 @@
 My first attempt at a personal website using Gatsby.js. It now fetches projects and jobs from Markdown files. :)
-
-Visit it at https://www.philchapdelaine.com/
+Hosted at https://www.philchapdelaine.com/
 
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
