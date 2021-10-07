@@ -10,7 +10,7 @@ tech:
     - GraphQL
 ---
 
-![Me](../images/website.png)
+![Website](../images/website.png)
 
 * My first attempt at a personal website, made using Gatsby.js.
 * I built the website by referencing [Andrew Mead's gatsby tutorial](https://mead.io)
