@@ -8,7 +8,6 @@ import Shuttle from '../images/shuttle.svg'
 const AboutPage = () => {
   return (
     <PageLayout>
-      <div data-sal="slide-up">
           <h1 className={layoutStyles.headers}>About Me</h1>
           <div><br/></div>
           <img className={layoutStyles.aboutimage} src={me} alt="me" />
@@ -17,7 +16,6 @@ const AboutPage = () => {
             <p>In my free time, I enjoy working out, playing video games, and playing soccer.</p>
             <p>I am currently searching for a developer position in 2021!</p>
           </div>
-      </div>
     </PageLayout>
   )
 }

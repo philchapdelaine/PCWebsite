@@ -97,7 +97,6 @@ const ExperiencePage = () => {
           )
         })}
         </div>
-
     </PageLayout>
   )
 }

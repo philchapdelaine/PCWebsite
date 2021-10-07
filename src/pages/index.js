@@ -21,11 +21,12 @@ const IndexPage = () => {
       <Home />
       <h1 id="about"><br/><br/><br/><br/><br/></h1>
       <About />
-      <h1 id="project"><br/><br/><br/><br/><br/></h1>
+      <h1 id="project"><br/><br/><br/><br/></h1>
       <Project />
-      <h1 id="experience"><br/></h1>
+      <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+      <h1 id="experience"><br/><br/><br/><br/></h1>
       <Experience />
-      <h1 id="contact"></h1>
+      <h1 id="contact"><br/><br/></h1>
       <Contact />
     </SiteLayout>
   )

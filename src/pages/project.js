@@ -58,7 +58,6 @@ const ProjectPage = () => {
 
   return (
     <PageLayout>
-    <Parallax  y={[ 0, -140 ]} >
       <h1 className={layoutStyles.headers}>Projects</h1>
         <Tabs TabIndicatorProps={{style: {background:'#5F9EA0'}}} value={selectedTab} onChange={handleChange}>
             {data.allMarkdownRemark.edges.map((edge, i) => {
@@ -108,8 +107,6 @@ const ProjectPage = () => {
             </TabPanel>
           )
         })}
-
-    </Parallax>
     </PageLayout>
   )
 }
