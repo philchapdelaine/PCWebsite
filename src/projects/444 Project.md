@@ -16,4 +16,5 @@ tech:
 1. looking at a design that focused on emulating social media apps vs a design that aimed to get them into a workout in one click 
 2. Two types of participants, those who were interested in workoing out in groups vs those that worked out individually.
 
+* Interviews were conducted bith in person and on zoom.
 * The final walkthrough was desgined on Figma.
