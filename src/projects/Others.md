@@ -1,9 +1,9 @@
 ---
 order: "4"
-type: "Web Development"
+type: "Miscellaneous"
 title: "Others"
-github: ""
-external: "https://www.figma.com/file/Edt3eaT27YKO4OEVuC2DTM/444-Design-A?node-id=0%3A1"
+github: "https://github.com/philchapdelaine"
+external: "hhttps://github.com/philchapdelaine"
 tech:
     - Many
 ---
