@@ -5,7 +5,7 @@ import { AnchorLink } from 'gatsby-plugin-anchor-links';
 import * as headerStyles from './header.module.scss'
 
 import icon from '../images/gatsby-icon.png'
-import resume from '../images/philippe_chapdelaine_coop_resume_2021.pdf'
+import resume from '../images/philippe_chapdelaine_resume_2021.pdf'
 
 const Header = () => {
 
