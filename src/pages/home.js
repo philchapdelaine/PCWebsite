@@ -45,17 +45,6 @@ const HomePage = () => {
       </div>
     </PageLayout>
   )
-
-  // return (
-  //   <div>
-  //     <Header />
-  //     <h1>Hello.</h1>
-  //     <h2>I'm learning how to use Gatsby</h2>
-  //     <p>Need a Developer? <a href="/contact">Contact me.</a></p>
-  //     <p>Need a Developer? <Link to="/contact">Contact me.</Link></p>
-  //     <Footer />
-  // </div>
-  // )
 }
 
 export default HomePage

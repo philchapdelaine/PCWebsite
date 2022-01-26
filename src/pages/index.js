@@ -17,16 +17,15 @@ const IndexPage = () => {
   return (
     <SiteLayout>
       <Head />
-      <h1 id="home"><br/><br/><br/></h1>
+      <h1 id="home"></h1>
       <Home />
-      <h1 id="about"><br/><br/><br/><br/><br/></h1>
+      <h1 id="about"></h1>
       <About />
-      <h1 id="project"><br/><br/><br/><br/></h1>
+      <h1 id="project"></h1>
       <Project />
-      <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-      <h1 id="experience"><br/><br/><br/><br/></h1>
+      <h1 id="experience"></h1>
       <Experience />
-      <h1 id="contact"><br/><br/></h1>
+      <h1 id="contact"></h1>
       <Contact />
     </SiteLayout>
   )
